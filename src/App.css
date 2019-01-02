@@ -1,32 +1,71 @@
-.App {
-  text-align: center;
+table, tr {
+	border: 1px solid black;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.chabox {
+	background-color: rgb(100, 100, 100);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.apollo {
+	background-color: rgb(189, 49, 41);
 }
 
-.App-link {
-  color: #61dafb;
+.edgeworth {
+	background-color: rgb(172, 57, 90);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edgeworth2 {
+	background-color: rgb(65, 65, 65);
 }
+
+.franny {
+	background-color: rgb(172, 205, 213);
+}
+
+.godot {
+	background-color: rgb(8, 131, 131);
+}
+
+.karma {
+	background-color: rgb(74, 82, 123);
+}
+
+.klavier {
+	background-color: rgb(115, 57, 82);
+}
+
+.mia {
+	background-color: rgb(24, 24, 24);
+}
+
+.payne {
+	background-color: rgb(128, 128, 128);
+}
+
+.payne2 {
+	background-color: rgb(24, 158, 57);
+}
+
+.payne3 {
+	background-color: rgb(198, 206, 0);
+}
+
+.phoenix {
+	background-color: rgb(57, 90, 139);
+}
+
+.chosen {
+	background-color: #841919;
+}
+
+@font-face {
+	font-family: "Ace Attorney";
+	src: url("./aceattorney.ttf");
+}
+
+header {
+	text-align: center;
+	font-size: 30px;
+}
+
+
